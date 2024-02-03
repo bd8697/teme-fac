@@ -1,0 +1,199 @@
+﻿<Page x:Class="Restaurant_MVP.Create_Account_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant_MVP"
+      mc:Ignorable="d" 
+      d:DesignHeight="405" d:DesignWidth="655"
+      Title="Create_Account_Page">
+
+    <Grid>
+        <Label 
+            Content="INTRODUCETI DATELE CONTULUI" 
+            FontWeight="DemiBold"
+            FontSize="30"
+            HorizontalAlignment="Center"
+            Margin="103,20,96,0"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"
+            VerticalAlignment="Top" Width="456"/>
+        <Label
+            Content="Nume" 
+            FontSize="15"
+            HorizontalAlignment="Left" 
+            Margin="235,84,0,0"
+            VerticalAlignment="Top" 
+            Height="25" 
+            Width="74"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <TextBox
+            x:Name="nume_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,87,0,0"
+            TextWrapping="Wrap"
+            Text="Nume"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="120"
+            GotFocus="nume_box_GotFocus"/>
+        <Label
+            Content="Prenume"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="209,114,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <TextBox
+            x:Name="adresa_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,204,0,0"
+            TextWrapping="Wrap"
+            Text="Adresa"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="adresa_box_GotFocus"/>
+
+        <PasswordBox
+            x:Name="parola_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,233,0,0"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="parola_box_GotFocus" PasswordChar="*" />
+        <PasswordBox
+            x:Name="parola2_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,264,0,0"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="parola2_box_GotFocus" LostFocus="parola2_box_LostFocus" PasswordChanged="parola2_box_PasswordChanged" PasswordChar="*" />
+
+        <Label 
+            Content="Adresa e-mail"
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="167,146,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <TextBox
+            x:Name="mail_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,148,0,0"
+            TextWrapping="Wrap"
+            Text="E-mail"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="mail_box_GotFocus"/>
+        <Label
+            Content="Numar telefon" 
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="159,173,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <Label
+            Content="Adresa" 
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="219,202,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <Label
+            Content="Parola" 
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="217,231,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <Label
+            Content="Reintroduceti parola" 
+            FontSize="15"
+            HorizontalAlignment="Left"
+            Margin="110,262,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <TextBox
+            x:Name="tel_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,175,0,0"
+            TextWrapping="Wrap"
+            Text="Nr. Telefon"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="tel_box_GotFocus"/>
+        <TextBox
+            x:Name="prenume_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="288,117,0,0"
+            TextWrapping="Wrap"
+            Text="Prenume"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="120"
+            GotFocus="prenume_box_GotFocus"/>
+        <Button 
+            x:Name="CreateBtn"
+            Content="Creare Cont"
+            HorizontalAlignment="Center"
+            Margin="279,354,251,0"
+            VerticalAlignment="Top"
+            Width="125"
+            Height="25"
+            Style="{DynamicResource myButtStyle}"
+            Click="CreateBtn_Click"/>
+
+        <CheckBox
+            x:Name="AngajatBtn"
+            Content="Cont Angajat"
+            HorizontalAlignment="Center"
+            Margin="290,326,226,0"
+            VerticalAlignment="Top"
+            Width="139"
+            Height="11"
+            Foreground="#e5e5e5"
+            Background="#0c0c0c"
+            Style="{DynamicResource CaptureIt}"
+            Checked="AngajatBtn_Checked"/>
+        <Button
+            x:Name="backBtn"
+            Style="{DynamicResource my2ndButtStyle}" 
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="25"
+            Height="25"
+            Margin="40,40,0,0"
+            Click="backBtn_Click">
+            <Image Source="Assets/back.png"/>
+        </Button>
+    </Grid>
+</Page>

@@ -1,0 +1,85 @@
+﻿<Page x:Class="Restaurant_MVP.Login_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant_MVP"
+           mc:Ignorable="d" 
+      d:DesignHeight="405" d:DesignWidth="655"
+      Title="Login_Page">
+
+    <Grid>
+        <Label 
+            Content="LOGARE" 
+            FontWeight="DemiBold"
+            FontSize="30"
+            HorizontalAlignment="Center"
+            Margin="249,20,265,0"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"
+            VerticalAlignment="Top" Width="141"/>
+        <Label
+            Content="Username" 
+            HorizontalAlignment="Left" 
+            Margin="204,82,0,0"
+            VerticalAlignment="Top" 
+            Height="25" 
+            Width="74"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <TextBox
+            x:Name="user_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="280,83,0,0"
+            TextWrapping="Wrap"
+            Text="E-mail"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="120"
+            GotFocus="user_box_GotFocus" TextChanged="user_box_TextChanged"/>
+        <Label
+            Content="parola"
+            HorizontalAlignment="Left"
+            Margin="219,112,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}" 
+            Width="74"/>
+        <PasswordBox
+            x:Name="parola_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="280,113,0,0"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="120"
+            GotFocus="parola_box_GotFocus" PasswordChar="*" />
+        <Button 
+            x:Name="LoginBtn"
+            Content="logare"
+            HorizontalAlignment="Center"
+            Margin="262,174,293,0"
+            VerticalAlignment="Top"
+            Width="100"
+            Height="25"
+            Style="{DynamicResource myButtStyle}"
+            Click="LoginBtn_Click"/>
+
+        <Button
+            x:Name="backBtn"
+            Style="{DynamicResource my2ndButtStyle}" 
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="25"
+            Height="25"
+            Margin="40,40,0,0"
+            Click="backBtn_Click">
+            <Image Source="Assets/back.png"/>
+        </Button>
+    </Grid>
+</Page>
+

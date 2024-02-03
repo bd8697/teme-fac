@@ -1,0 +1,170 @@
+﻿<Page x:Class="Restaurant_MVP.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant_MVP"
+          mc:Ignorable="d" 
+      d:DesignHeight="405" d:DesignWidth="655"
+      Title="HomePage" Background="Transparent">
+
+    <Grid>
+        <Button
+            x:Name="orderBtn"
+            Content="Comanda"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="243,295,242,0"
+            Width="170"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="orderBtn_Click"/>
+
+        <Label 
+            Content="Meniu Restaurant" 
+            FontWeight="DemiBold"
+            Style="{DynamicResource CaptureIt}"
+            FontSize="30"
+            Foreground="#e5e5e5"
+            HorizontalAlignment="Center"
+            Margin="181,10,186,0"
+            VerticalAlignment="Top"/>
+        <Button
+            x:Name="SearchBtn"
+            Content="Cautare Preparat"
+            HorizontalAlignment="Center"
+            Margin="243,149,242,0" 
+            VerticalAlignment="Top"
+            Width="170"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="SearchBtn_Click"/>
+        <Button
+            x:Name="addBtn"
+            Content="Adaugare Meniu"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="119,71,336,0"
+            Width="200"
+            Height="50"
+            Style="{DynamicResource myButtStyle}"
+            Click="addBtn_Click"/>
+
+        <Button
+            x:Name="addPreparatBtn"
+            Content="Adaugare Preparat"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="119,131,336,0"
+            Width="200"
+            Height="50"
+            Style="{DynamicResource myButtStyle}"
+            Click="addPreparatBtn_Click"/>
+
+
+        <Button
+            x:Name="viewBtn"
+            Content="Meniu Preparate"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="243,245,242,0"
+            Width="170"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="viewBtn_Click"/>
+
+        <Button
+            x:Name="SearchMeniuriBtn"
+            Content="Cautare Meniuri"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="243,199,242,0"
+            Width="170"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="viewMeniuriBtn_Click"/>
+
+        <Button
+            x:Name="editMeniuriBtn"
+            Content="Editare Meniuri"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="333,71,122,0"
+            Width="200"
+            Height="50"
+            Style="{DynamicResource myButtStyle}"
+            Click="editMeniuriBtn_Click"/>
+
+        <Button
+            x:Name="editPreparateBtn"
+            Content="Editare Preparate"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="333,131,122,0"
+            Width="200"
+            Height="50"
+            Style="{DynamicResource myButtStyle}"
+            Click="editPreparateBtn_Click"/>
+
+        <Button
+            x:Name="seeOrdersBtn"
+            Content="Vizualizare Comenzi"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="333,190,122,0"
+            Width="200"
+            Height="50"
+            Style="{DynamicResource myButtStyle}"
+            Click="seeOrersBtn_Click"/>
+
+        <Button
+            x:Name="seePreparateBtn"
+            Content="Preparate in epuizare"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="119,190,336,0"
+            Width="200"
+            Height="50"
+            Style="{DynamicResource myButtStyle}"
+            Click="seePreparateBtn_Click"/>
+
+        <Button
+            x:Name="backBtn"
+            Background="#00000000"
+            Foreground ="White"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment ="Center"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Style="{DynamicResource my2ndButtStyle}" 
+            Width="25"
+            Height="25"
+            Margin="10,10,0,0"
+            Click="backBtn_Click">
+            <Image Source="Assets/back.png" RenderTransformOrigin="0.391,1.913"/>
+        </Button>
+
+        <Button
+            x:Name="addCategorieBtn"
+            Content="Adaugare Categorie"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="226,265,229,0"
+            Width="200"
+            Height="50"          
+            Style="{DynamicResource myButtStyle}"
+            Click="addCategorieBtn_Click"/>
+
+        <Button
+            x:Name="CreateBtn"
+            Content="Creaza Cont"
+            HorizontalAlignment="Center"
+            Margin="243,101,242,0" 
+            VerticalAlignment="Top"
+            Width="170"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="CreateBtn_Click"/>
+
+    </Grid>
+</Page>

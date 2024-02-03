@@ -1,0 +1,100 @@
+﻿<Page x:Class="Restaurant_MVP.SeeOrdersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant_MVP"
+           mc:Ignorable="d" 
+      d:DesignHeight="406" d:DesignWidth="655"
+      Title="SeeOrdersPage">
+
+    <Grid>
+        <Label 
+            Content="Comenzi" 
+            FontWeight="DemiBold"
+            FontSize="30"
+            HorizontalAlignment="Center"
+            Margin="246,10,271,0"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"
+            VerticalAlignment="Top" Width="138"/>
+
+        <Label 
+            Content="Comenzi :" 
+            FontWeight="DemiBold"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Margin="10,46,524,0"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"
+            VerticalAlignment="Top" Width="121"/>
+
+        <DataGrid
+            x:Name="gridTable"
+            AlternatingRowBackground="#576E66"
+            HorizontalScrollBarVisibility="Disabled"
+            VerticalScrollBarVisibility="Auto"
+            MinColumnWidth="50"
+            IsReadOnly="True"
+            ItemsSource="{Binding}"
+            HorizontalAlignment="Center"
+            Height="250"
+            Margin="10,79,10,0"
+            VerticalAlignment="Top"
+            Width="635"
+            MaxWidth ="635"
+            ColumnWidth="86"
+            FrozenColumnCount="4"
+            SelectionMode="Single"
+            SelectionChanged="gridTable_SelectionChanged"/>
+
+        <Button 
+            x:Name="cancelOrder"
+            Content="Anulare"
+            HorizontalAlignment="Left"
+            Margin="533,334,0,0"
+            VerticalAlignment="Top"
+            Width="112"
+            Height="29"
+            Style="{DynamicResource myButtStyle}"
+            Click="cancelBtn_Click"
+            />
+
+        <Button 
+            x:Name="AllOrdersBtn"
+            Content="Toate Comenzile"
+            HorizontalAlignment="Left"
+            Margin="180,334,0,0"
+            VerticalAlignment="Top"
+            Width="165"
+            Height="29"
+            Style="{DynamicResource myButtStyle}"
+            Click="AllOrdersBtn_Click"
+            />
+
+        <Button 
+            x:Name="AllActiveOrdersBtn"
+            Content="Comenzile Active"
+            HorizontalAlignment="Left"
+            Margin="10,334,0,0"
+            VerticalAlignment="Top"
+            Width="165"
+            Height="29"
+            Style="{DynamicResource myButtStyle}"
+            Click="AllActiveOrdersBtn_Click"
+            />
+
+        <Button
+            x:Name="backBtn"
+            Style="{DynamicResource my2ndButtStyle}" 
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="25"
+            Height="25"
+            Margin="10,10,0,0"
+            Click="backBtn_Click">
+            <Image Source="Assets/back.png" RenderTransformOrigin="0.391,1.913"/>
+
+        </Button>
+    </Grid>
+</Page>

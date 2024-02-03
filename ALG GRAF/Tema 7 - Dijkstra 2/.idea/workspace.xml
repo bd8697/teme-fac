@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30fc09fa-6984-45e4-ae65-c91167076304" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TQ9NOmpk236UGQPZfAJVNMoLHG" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tema 8 - flux maxim" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Graf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graf" />
+      <module name="DesenareGraf InteliJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DesenareGraf InteliJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadXMLFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadXMLFile" />
+      <module name="DesenareGraf InteliJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ReadXMLFile" />
+        <item itemvalue="Application.Graf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30fc09fa-6984-45e4-ae65-c91167076304" name="Default Changelist" comment="" />
+      <created>1573381411498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573381411498</updated>
+      <workItem from="1573381414728" duration="1560000" />
+      <workItem from="1573383322695" duration="10315000" />
+      <workItem from="1573401765817" duration="31000" />
+      <workItem from="1573404920160" duration="2496000" />
+      <workItem from="1573408898774" duration="216000" />
+      <workItem from="1573457210928" duration="34000" />
+      <workItem from="1573457295944" duration="34000" />
+      <workItem from="1573457971098" duration="1942000" />
+      <workItem from="1573499568927" duration="93000" />
+      <workItem from="1573564864784" duration="51000" />
+      <workItem from="1574497524039" duration="635000" />
+      <workItem from="1574585944078" duration="5301000" />
+      <workItem from="1574609182015" duration="407000" />
+      <workItem from="1574688974358" duration="1792000" />
+      <workItem from="1574763855765" duration="4731000" />
+      <workItem from="1575382887957" duration="3919000" />
+      <workItem from="1575441652783" duration="8128000" />
+      <workItem from="1575760609750" duration="49000" />
+      <workItem from="1575962462624" duration="16090000" />
+      <workItem from="1576221215291" duration="5413000" />
+      <workItem from="1576232379921" duration="3629000" />
+      <workItem from="1576490770387" duration="1653000" />
+      <workItem from="1576827811340" duration="18486000" />
+      <workItem from="1577292063571" duration="222000" />
+      <workItem from="1578344281774" duration="1420000" />
+      <workItem from="1578393383912" duration="4720000" />
+      <workItem from="1578553270358" duration="283000" />
+      <workItem from="1581153461105" duration="637000" />
+      <workItem from="1581159489725" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="listaAdiacenta.get(1)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

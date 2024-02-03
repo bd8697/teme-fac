@@ -1,0 +1,52 @@
+﻿<Page x:Class="Restaurant_MVP.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant_MVP"
+         mc:Ignorable="d" 
+      d:DesignHeight="605" d:DesignWidth="655"
+      Title="MainPage">
+
+    <Grid>
+        <Label 
+            Content="Bine-ati venit la Restaurant!" 
+            FontWeight="DemiBold"
+            Style="{DynamicResource CaptureIt}"
+            FontSize="30"
+            Foreground="#e5e5e5"
+            HorizontalAlignment="Center"
+            Margin="98,27,97,0"
+            VerticalAlignment="Top"/>
+        <Button
+            x:Name="CreateBtn"
+            Content="Creaza Cont"
+            HorizontalAlignment="Center"
+            Margin="228,117,227,0" 
+            VerticalAlignment="Top"
+            Width="200"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="CreateBtn_Click"/>
+        <Button
+            x:Name="Login_Btn"
+            Content="Logare"
+            HorizontalAlignment="Center"
+            Margin="228,175,227,0" 
+            VerticalAlignment="Top"
+            Width="200"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="Login_Btn_Click"/>
+        <Button
+            x:Name="Noo_Login_Btn"
+            Content="Continua fara loGare"
+            HorizontalAlignment="Center"
+            Margin="228,232,227,0" 
+            VerticalAlignment="Top"
+            Width="200"
+            Height="30"
+            Style="{DynamicResource myButtStyle}"
+            Click="No_Login_Btn_Click"/>
+    </Grid>
+</Page>

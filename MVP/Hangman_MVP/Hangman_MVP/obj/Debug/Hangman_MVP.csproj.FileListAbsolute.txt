@@ -1,0 +1,14 @@
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP.csprojAssemblyReference.cache
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\MainWindow.g.cs
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\App.g.cs
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP_MarkupCompile.cache
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP_MarkupCompile.lref
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\bin\Debug\Hangman_MVP.exe.config
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\bin\Debug\Hangman_MVP.exe
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\bin\Debug\Hangman_MVP.pdb
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\MainWindow.baml
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP.g.resources
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP.Properties.Resources.resources
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP.csproj.GenerateResource.cache
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP.exe
+D:\Work\Anu II\MVP\Hangman\Hangman_MVP\Hangman_MVP\obj\Debug\Hangman_MVP.pdb

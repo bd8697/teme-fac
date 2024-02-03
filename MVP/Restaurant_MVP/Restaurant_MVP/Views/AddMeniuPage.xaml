@@ -1,0 +1,222 @@
+﻿<Page x:Class="Restaurant_MVP.AddMeniuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Restaurant_MVP"
+           mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="655"
+      Title="AddMeniuPage">
+
+    <Grid>
+        <Label
+            Content="ADAUGARE MENIU" 
+            HorizontalAlignment="Left" 
+            Margin="196,10,0,0"
+            VerticalAlignment="Top" 
+            FontSize="30"
+            Height="41" 
+            Width="262"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <Label
+            Content="Denumire" 
+            HorizontalAlignment="Left" 
+            Margin="154,127,0,0"
+            FontSize="15"
+            VerticalAlignment="Top" 
+            Height="25" 
+            Width="78"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <Label
+            Content="Preparat" 
+            FontSize="15"
+            HorizontalAlignment="Left" 
+            Margin="151,97,0,0"
+            VerticalAlignment="Top" 
+            Height="25" 
+            Width="83"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <TextBox
+            x:Name="denumire_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,130,0,0"
+            TextWrapping="Wrap"
+            Text=""
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="300"
+            GotFocus="denumire_box_GotFocus" TextChanged="denumire_box_TextChanged"/>
+
+        <TextBox
+            x:Name="alergeni_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,304,0,0"
+            TextWrapping="Wrap"
+            Text=""
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="300"
+            GotFocus="alergeni_box_GotFocus" TextChanged="alergeni_box_TextChanged"/>
+        <Label
+            Content="PRET"
+            HorizontalAlignment="Left"
+            FontSize="15"
+            Margin="186,158,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <!--<TextBox 
+            x:Name="Genre_TBox"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="350,150,0,0" 
+            Text="Enter Genre"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="Genre_TBox_GotFocus"/>-->
+        <ComboBox Name="cat_select" DisplayMemberPath = "Title" SelectedValuePath = "Title"  IsEditable="True" IsReadOnly="True"
+                   HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,247,0,0" 
+            Text="Selectati categoria"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="cat_box_GotFocus" 
+                  ItemsSource="{Binding}" SelectionChanged="cat_select_SelectionChanged"></ComboBox>
+
+        <ComboBox Name="prep_select" IsEditable="True" IsReadOnly="True"
+                   HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,100,0,0" 
+            Text="Selectati, pe rand, preparatele"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="180"
+            GotFocus="prep_box_GotFocus" 
+                  ItemsSource="{Binding}" SelectionChanged="prep_select_SelectionChanged"></ComboBox>
+
+        <Label 
+            Content="CANTITATE"
+            HorizontalAlignment="Left"
+            FontSize="15"
+            Margin="144,187,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <TextBox
+            x:Name="cant_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,191,0,0"
+            TextWrapping="Wrap"
+            Text="Gramaj / unitate"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="300"
+            GotFocus="cant_box_GotFocus"/>
+        <Label
+            Content="CANT. TOTALA" 
+            HorizontalAlignment="Left"
+            FontSize="15"
+            Margin="121,215,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <Label
+            Content="CATEGORIE" 
+            HorizontalAlignment="Left"
+            FontSize="15"
+            Margin="142,244,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <Label
+            Content="ALERGEN" 
+            HorizontalAlignment="Left"
+            FontSize="15"
+            Margin="155,273,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+
+        <Label
+            Content="ALERGENI" 
+            HorizontalAlignment="Left"
+            FontSize="15"
+            Margin="152,301,0,0" 
+            VerticalAlignment="Top"
+            Foreground="#e5e5e5"
+            Style="{DynamicResource CaptureIt}"/>
+        <ComboBox
+            x:Name="alergen_box" IsEditable="True" IsReadOnly="True"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,276,0,0"
+            Text="Selectati alergen"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="120"
+            GotFocus="alergen_box_GotFocus" SelectionChanged="alergeni_box_SelectionChanged"/>
+        <TextBox
+            x:Name="cant_tot_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,218,0,0"
+            TextWrapping="Wrap"
+            Text="Gramaj pe stoc"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="300"
+            GotFocus="cant_tot_box_GotFocus"/>
+        <TextBox
+            x:Name="pret_box"
+            HorizontalAlignment="Left"
+            Height="20"
+            Margin="238,160,0,0"
+            TextWrapping="Wrap"
+            Text="Pret / unitate"
+            FontStyle="Italic"
+            FontWeight="Light"
+            VerticalAlignment="Top"
+            Width="300"
+            GotFocus="pret_box_GotFocus"/>
+        <Button 
+            x:Name="AddBtn"
+            Content="Adaugare"
+            HorizontalAlignment="Center"
+            Margin="258,363,297,0"
+            VerticalAlignment="Top"
+            Width="100"
+            Height="25"
+            Style="{DynamicResource myButtStyle}"
+            Click="AddBtn_Click"/>
+        <Button
+            x:Name="backBtn"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="25"
+            Height="25"
+            Margin="40,40,0,0"
+            Style="{DynamicResource my2ndButtStyle}" 
+            Click="backBtn_Click">
+            <Image Source="Assets/back.png"/>
+        </Button>
+    </Grid>
+</Page>
