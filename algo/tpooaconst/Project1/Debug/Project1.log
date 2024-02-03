@@ -1,0 +1,2 @@
+﻿  TestMunte.cpp
+d:\poo\project8\project1\testmunte.cpp(9): error C2276: '&': illegal operation on bound member function expression

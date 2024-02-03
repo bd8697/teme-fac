@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mapps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_street">Street</string>
+    <string name="panorama_not_ready" />
+    <string name="switch_to_map">To Map</string>
+    <string name="auxTimer" />
+    <string name="start">Start</string>
+    <string name="play_again">Play Again</string>
+</resources>

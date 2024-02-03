@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480262438 source:c:\users\dani\desktop\ex2ppdin\main.c
+	<stdio.h>
+	<malloc.h>
+	<conio.h>
+

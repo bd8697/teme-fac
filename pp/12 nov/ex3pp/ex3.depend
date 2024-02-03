@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1479051094 source:c:\users\dani\desktop\ex3\main.c
+	<stdio.h>
+
+1479068899 source:c:\users\dani\desktop\pp\12 nov\ex3pp\main.c
+	<stdio.h>
+	<string.h>
+

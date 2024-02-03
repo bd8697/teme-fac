@@ -1,0 +1,6 @@
+﻿  Main.cpp
+W:\Anu II\Visual Studio\LFC n\Ex 8 - 3\Ex 8 - 3\Main.cpp(10,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+W:\Anu II\Visual Studio\LFC n\Ex 8 - 3\Ex 8 - 3\Main.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+W:\Anu II\Visual Studio\LFC n\Ex 8 - 3\Ex 8 - 3\Main.cpp(25,21): warning C4018: '<': signed/unsigned mismatch
+W:\Anu II\Visual Studio\LFC n\Ex 8 - 3\Ex 8 - 3\Main.cpp(45,23): warning C4018: '<': signed/unsigned mismatch
+  Ex 8 - 3.vcxproj -> W:\Anu II\Visual Studio\LFC n\Ex 8 - 3\Debug\Ex 8 - 3.exe

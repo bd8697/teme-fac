@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="streetviewpanorama" type="id" />
+    <item name="duration_bar" type="id" />
+    <item name="street_view_panorama" type="id" />
+</resources>

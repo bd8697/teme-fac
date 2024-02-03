@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480864870 source:c:\users\dani\desktop\pp\04 dec\ex4\main.c
+	<stdio.h>
+	<malloc.h>
+	<conio.h>
+

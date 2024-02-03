@@ -1,0 +1,11 @@
+﻿Build started 3/28/2017 1:32:36 PM.
+     1>Project "c:\Users\Dragos A\documents\visual studio 2013\Projects\POO TEMA MAR 30 CLASE\POO TEMA MAR 30 CLASE\POO TEMA MAR 30 CLASE.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\dragos a\documents\visual studio 2013\Projects\POO TEMA MAR 30 CLASE\Debug\POO TEMA MAR 30 CLASE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\dragos a\documents\visual studio 2013\Projects\POO TEMA MAR 30 CLASE\Debug\POO TEMA MAR 30 CLASE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\dragos a\documents\visual studio 2013\Projects\POO TEMA MAR 30 CLASE\Debug\POO TEMA MAR 30 CLASE.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Punct2D.obj
+         POO TEMA MAR 30 CLASE.vcxproj -> c:\users\dragos a\documents\visual studio 2013\Projects\POO TEMA MAR 30 CLASE\Debug\POO TEMA MAR 30 CLASE.exe
+     1>Done Building Project "c:\Users\Dragos A\documents\visual studio 2013\Projects\POO TEMA MAR 30 CLASE\POO TEMA MAR 30 CLASE\POO TEMA MAR 30 CLASE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53

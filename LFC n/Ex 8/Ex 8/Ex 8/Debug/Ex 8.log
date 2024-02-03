@@ -1,0 +1,3 @@
+﻿  Main.cpp
+W:\Visual Studio\LFC n\Ex 8\Ex 8\Ex 8\Main.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
+LINK : fatal error LNK1168: cannot open W:\Visual Studio\LFC n\Ex 8\Ex 8\Debug\Ex 8.exe for writing
